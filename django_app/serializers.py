@@ -5,7 +5,7 @@ from django.contrib.auth.hashers import make_password
 class TrailObjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trail
-        fields = ('id', 'trail_name', 'location', 'difficulty', 'length', 'elevation', 'route_type')
+        fields = ('id', 'city', 'state', 'country', 'name', 'unique_id', 'directions', 'lat', 'lon', 'description', 'thumbnail', 'length', 'url')
 
 class UserObjectSerializer(serializers.ModelSerializer):
     class Meta:
@@ -43,7 +43,7 @@ class TrailSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Trail
-        fields = ('id', 'trail_name', 'location', 'difficulty', 'length', 'elevation', 'route_type', 'users', 'reviews')
+        fields = ('id', 'city', 'state', 'country', 'name', 'unique_id', 'directions', 'lat', 'lon', 'description', 'thumbnail', 'length', 'url', 'users', 'reviews')
 
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:

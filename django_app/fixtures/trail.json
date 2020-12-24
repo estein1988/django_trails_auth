@@ -1,0 +1,172 @@
+[
+    {   "model": "django_app.trail",
+        "pk": 1,
+        "fields": {
+            "city": "Golden",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "Apex Park",
+            "unique_id": 684,
+            "directions": "From the I-25 and 6th Ave. intersection in Denver, go west on 6th. As you get close to the foothills, you will drive under I-70.After the underpass, take your first left at the stoplight.You will be turning onto Hwy. 40. Drive on 40 for about a mile.  Pull into the Heritage Square parking lot on your right, and park on the north side next to the trailhead.",
+            "lat": 39.71646,
+            "lon": -105.20924,
+            "description": "Apex Trail is in the Jefferson County trail system, and the eastern access is in the City of Golden. The trail is 2.3 miles long gaining up to 1,500 feet in elevation. There are exposed steep trails at time with views of Denver and Golden. &lt;br /&gt;<br />Apex Park also features the Enchanted Forest Loop, at 5.6 miles round-trip, which features gentle slopes and scenic views of the forest. The Pick N' Sledge loop is also available, at 4.4 miles, but it is mainly used as a mountain bike trail.&lt;br /&gt;<br />These trails are multi-use so please practice caution.",
+            "thumbnail": "http://images.tripleblaze.com/2009/04/IMG_0544-0.jpg",
+            "length": "8",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=300"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 2,
+        "fields": {
+            "city": "Littleton",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "Deer Creek Canyon",
+            "unique_id": 690,
+            "directions": "Go west on W Deer Creek Canyon Rd, which intersects Wadsworth just south of C-470 by Chatfield.  Travel 4 miles to Grizzly Dr and turn left.  Parking lot is on the right about 1/2 mile up this steep road.",
+            "lat": 39.54314,
+            "lon": -105.15216,
+            "description": "Deer Creek Canyon Park is defined by its sterling recreation opportunities and golden habitat for wildlife. &lt;br /&gt;<br />Hikers and equestrians have the Meadowlark Homesteader and Golden Eagle Trails all to themselves. On multi-use trails, mountain bikers test their mettle on &quot;The Wall,&quot; a steep section of rocky terrain on Plymouth Creek Trail, and pedal the 2.5-mile Red Mesa Loop. All trail users should be aware of the risk of rattlesnake encounters. &lt;br /&gt;<br />Meadowlark: Hiker only; exposed with great views of parking area, meadows and the south valley; consistent 10 percent grade.&lt;br /&gt;<br />Golden Eagle: Hiker only; scenic view at summit; 3-mile hike to reach trailhead.&lt;br /&gt;<br />Plymouth Creek: Multi-user trail; lush sections; rocky in spots; steep climb west of Meadowlark junction.&lt;br /&gt;<br />Plymouth Mountain: Multi-user trail with scenic views to the east; Steep side slope on north end.&lt;br /&gt;<br />Scenic View: Short, multi-user trail with steep section; beautiful 360-degree summit view.&lt;br /&gt;<br />Homesteader: Hiker only; forested trail with an average 4 percent grade; trail follows canyon rim on the north side.&lt;br /&gt;<br />Red Mesa Loop: Multi-user trail with open view of the canyon and forested section.",
+            "thumbnail": "http://images.tripleblaze.com/2012/01/DSC_0047-0.jpg",
+            "length": "12",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=279"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 3,
+        "fields": {
+            "city": "Littleton",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "Waterton Canyon",
+            "unique_id": 692,
+            "directions": "From Denver, take 470 west towards littleton.  Exit at Wadsworth Blvd (CO 121).  Go about 4 miles and follow the signs to the park.  Park in the lot on the left.  The trail starts on the opposite side of the road.",
+            "lat": 39.49138,
+            "lon": -105.09323,
+            "description": "Strontia Springs Dam is six and one-half miles upstream of the mouth of Waterton Canyon on the South Platte River. Water is diverted from the reservoir into a 3.4 mile-long tunnel under the mountains to the Foothills Water Treatment Plant. Completed in 1983, this dam towers 243 feet above the South Platte streambed, forming a 1.7 mile-long lake with 98 surface acres.",
+            "thumbnail": "http://images.singletracks.com/2014/05/2013-07-05180838.jpg",
+            "length": "6",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=273"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 4,
+        "fields": {
+            "city": "Denver",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "Green Mountain",
+            "unique_id": 694,
+            "directions": "From I-25, take 6th Ave. west. Drive approximately 6 miles to Kipling. Take Kipling south for 2 miles before taking a right on Alameda. Stay on Alameda for 3 miles until you see a parking area on the right. This trail is part of William Frederick Hayden Park.",
+            "lat": 39.69666,
+            "lon": -105.19224,
+            "description": "With more than 2,400 acres of open space, William Frederick Hayden Park on Green Mountain is the second largest park in Lakewood. &lt;br /&gt;<br />The park features a challenging network of multi-use trails. The summit, at 6,800 feet, offers unique and stunning views of the Denver metropolitan area to the east, as well as high mountain peaks to the west.",
+            "thumbnail": "http://images.tripleblaze.com/2009/02/275-1223987631.jpg",
+            "length": "7",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=275"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 5,
+        "fields": {
+            "city": "Denver",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "Red Rocks/ Dakota Ridge",
+            "unique_id": 708,
+            "directions": "Take I-70 west out of Denver. Go past the 470 exit, and take the very next exit for Morrison. At the end of the exit, take a left (south) onto Colorado Hwy 26 at the light. Go under the I-70 overpass, and the park will be on your right 100 yards later. Trailhead is on SE side of the lot.",
+            "lat": 39.69448,
+            "lon": -105.20493,
+            "description": "Dakota Ridge is an extremely rocky trail high on the Hogback between Denver and the front range. This is a very entertaining trail with rocks and staircases all over the place and some serious exposure on the tops of cliffs. Expect incredible views of Denver and the front range.",
+            "thumbnail": "http://images.singletracks.com/2009/trails/01/1129336139.jpg",
+            "length": "6",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=268"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 6,
+        "fields": {
+            "city": "Evergreen",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "Elk Meadow",
+            "unique_id": 719,
+            "directions": "From Denver, take I-70 to Evergreen Parkway (CO 74) towards the town of Evergreen.  &lt;br /&gt;Turn right onto Stagecoach Blvd.  Follow the signs to the parking lot on the right (about a &lt;br /&gt;mile).",
+            "lat": 39.65458,
+            "lon": -105.36643,
+            "description": "True to its name, Elk Meadow Park is the most likely place in the Open Space system to view herds of elk. The meadow is prime grazing ground for the largest of Colorado's native deer, as well as where mountain bluebirds flit and red-tailed hawks circle the sky hunting for rodents and other prey.&lt;br /&gt;<br />Trail experiences are diverse-short jaunts on flat terrain, a rolling trek on Meadow View Trail, the 4.7-mile haul with a 2,100-foot elevation gain from the Stagecoach Boulevard trailhead to 9,708-foot Bergen Peak. This Denver Mountain Parks landmark affords sweeping views of the Continental Divide. The number of switchbacks on this steep, rocky path demand sharing the trail, as always, along with being prepared for wildlife encounters.",
+            "thumbnail": "http://images.singletracks.com/2013/08/mobile-1376832932-0.jpg",
+            "length": "13",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=189"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 7,
+        "fields": {
+            "city": "Evergreen",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "3 Sisters / Alderfer",
+            "unique_id": 720,
+            "directions": "From I-70, take CO 74/Evergreen Pkwy to downtown Evergreen.  Turn right onto County Rd. &lt;br /&gt;73 and go about a mile to Buffalo Park Rd.  Follow the signs to the parking area on the right.",
+            "lat": 39.62324,
+            "lon": -105.34659,
+            "description": "Near the heart of Evergreen, Alderfer/Three Sisters Park abounds with stunning vistas, landmark rock formations, beautiful old stands of ponderosa pine and the most trails per acre of any foothills park-nearly 15 miles on 770 acres. Open meadows, forests, and great views are all around.",
+            "thumbnail": "http://images.singletracks.com/2015/03/G0457523.jpg",
+            "length": "15",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=314"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 8,
+        "fields": {
+            "city": "Boulder",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "Walker Ranch",
+            "unique_id": 722,
+            "directions": "In Boulder, use Flagstaff Rd. @ Chatauqua park go about 6 or 7 miles.  Has A small dirt road on left (south) side to reach trailhead.    Watch for cyclists climbing Flagstaff Rd. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;From Golden, go north on Hwy 93 to Coal Creek Canyon dr. (Hwy 72) take a left and go approx 8mi to Gross Dam rd on the right, road may not be marked but it is ~.5mi past the Boulder County sign.  Take a very sharp right onto this dirt rd (nearly 180deg) and go 2.7mi to the Crescent Meadow parking lot on the right, just past the railroad tracks.",
+            "lat": 39.95145,
+            "lon": -105.33752,
+            "description": "Single and double track, loop, variable terrain, cliff conditions so you need to dismount in one spot. Fast changing weather.  Occasional joggers + horses. Average Ride under 2 hours.  Is a great ride in either direction.  ",
+            "thumbnail": "http://images.singletracks.com/2012/09/DSCN0857-0.jpg",
+            "length": "7",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=312"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 9,
+        "fields": {
+            "city": "Morrison",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "Mount Falcon Park",
+            "unique_id": 723,
+            "directions": "From Denver, take the the Morrison Rd./CO 8 exit from CO 470.  Head west into town (Main &lt;br /&gt;Street), take a left to stay on CO 8.  Go about 1.5 miles and turn right onto Forest Ave.  &lt;br /&gt;Follow the signs to the parking area for Mount Falcon Park.  ",
+            "lat": 39.64688,
+            "lon": -105.19604,
+            "description": null,
+            "thumbnail": "http://images.tripleblaze.com/2009/02/176-1223988459.jpg",
+            "length": "9",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=176"
+        }
+    },
+    {   "model": "django_app.trail",
+        "pk": 10,
+        "fields": {
+            "city": "Golden",
+            "state": "Colorado",
+            "country": "United States",
+            "name": "White Ranch",
+            "unique_id": 732,
+            "directions": "From Denver, take 70W to Golden.  White Ranch State Park is ~2miles north of Golden and ~17 miles south of Boulder on Hwy 93.   Turn west (right if coming from Golden) onto W 56th Ave and follow the signs to the parking lot.",
+            "lat": 39.79906,
+            "lon": -105.24839,
+            "description": "This trail network is typical of what Colorado has to offer... a technical granny gear ascent up 1800+ ft on the Maverick trail with spectacular views of the surrounding Rocky mountains and wildlife.  The downhills can get pretty gnarly as well with lots of rocks and log dropoffs.  We didn't get to ride the entire network because we got caught in a thunderstorm, luckily we hid out in a cave on the Mustang trail until the storm passed.   Pick up a map at the parking lot as there are several trails to explore! ",
+            "thumbnail": "http://images.singletracks.com/2014/12/G1101841.jpg",
+            "length": "14",
+            "url": "http://www.tripleblaze.com/trail.php?c=3&i=400"
+        }
+    }
+]

@@ -10,16 +10,22 @@ class User(AbstractUser):
         return self.username
 
 class Trail(models.Model):
-    trail_name = models.CharField(max_length=50, null=True)
-    location = models.CharField(max_length=50, null=True)
-    difficulty = models.CharField(max_length=50, null=True)
+    city = models.CharField(max_length=100, null=True)
+    state = models.CharField(max_length=100, null=True)
+    country = models.CharField(max_length=100, null=True)
+    name = models.CharField(max_length=50, null=True)
+    unique_id = models.IntegerField(null=True)
+    directions = models.CharField(max_length=1000, null=True)
+    lat = models.FloatField(null=True)
+    lon = models.FloatField(null=True)
+    description = models.CharField(max_length=2500, null=True)
+    thumbnail = models.CharField(max_length=700, null=True)
     length = models.CharField(max_length=50, null=True)
-    elevation = models.CharField(max_length=50, null=True)
-    route_type = models.CharField(max_length=50, null=True)
+    url = models.CharField(max_length=250, null=True)
     users = models.ManyToManyField(User, related_name='users', through='Review')
 
     def __str__(self):
-        return self.trail_name
+        return self.name
 
 class Review(models.Model):
     rating = models.CharField(max_length=50, null=True)
