@@ -15,7 +15,7 @@ class UserObjectSerializer(serializers.ModelSerializer):
 class ReviewObjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
-        fields = ('id', 'trail')
+        fields = ('id', 'trail', 'rating', 'review')
 
 class UserSerializer(serializers.ModelSerializer):
     reviews = ReviewObjectSerializer(many=True, required=False)
