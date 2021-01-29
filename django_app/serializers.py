@@ -13,9 +13,11 @@ class UserObjectSerializer(serializers.ModelSerializer):
         fields = ('id', 'username', 'password', 'email', 'full_name', 'experience', 'age')
 
 class ReviewObjectSerializer(serializers.ModelSerializer):
+    trail = TrailObjectSerializer(many=False)
+    user = UserObjectSerializer(many=False)
     class Meta:
         model = Review
-        fields = ('id', 'trail', 'rating', 'review')
+        fields = ('id', 'trail', 'user', 'rating', 'review')
 
 class UserSerializer(serializers.ModelSerializer):
     reviews = ReviewObjectSerializer(many=True, required=False)
@@ -48,4 +50,4 @@ class TrailSerializer(serializers.ModelSerializer):
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
-        fields = ('id', 'rating', 'review', 'user', 'trail')
+        fields = ('id', 'rating', 'review', 'trail', 'user')
